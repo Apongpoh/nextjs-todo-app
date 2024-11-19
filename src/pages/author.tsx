@@ -23,14 +23,14 @@ const Author: NextPage = () => {
       <Header openProjects={()=>{}} />
       <main className={`${styles.mainContent} centerContainer`}>
             <section className={styles.contentBlock}>
-              <img className={styles.profilePicture} src="https://ik.imagekit.io/lrjseyuxi3m/todoapp/MOSHED-2021-5-27-10-58-4_1_mqfuf7R1O.png?updatedAt=1636635922170" alt="" />
+              <img className={styles.profilePicture} src="https://apongpoh-portfolio.vercel.app/_next/image?url=%2Fimages%2Fportfolio.jpg&w=640&q=75" width={200} height={200} alt="" />
               <div className={styles.textBlock}>
                 <h2>The author</h2>
                 <p>
                   Hi there.
-                   I&apos;m Patrick Rios, a <b>developer</b> based in Dourados-MS, Brazil.
-                   Nowdays, i&apos;m in my journey to became a professional <b>web developer</b>, and this project is a part of it. 
-                   I&apos;ve studied the modern web development almost two years, and you can check this and other projects in my <a href="https://patrickrios.github.io">portfolio page.</a>
+                   I&apos;m Apongpoh Gilbert, a <b>Full-Stack Developer and an Entry-Level Cybersecurity Analyst</b> based in Douala, Cameroon.
+                   This project is a part of my Front-End and UI/UX skills. 
+                   I&apos;ve studied the modern web development almost five years.
                 </p>
               </div>
             </section>
@@ -50,13 +50,10 @@ const Author: NextPage = () => {
                 <h2>Get in touch with me</h2>
                 <div className={styles.contentBlock}>
                   <div className={styles.socialLinks}>
-                    <a href="https://www.youtube.com/channel/UCKVwiehGpmpUGKA-7evvuPw">
-                      <img className={`${styles.socialItem} ${styles.linkYoutube}`} src="https://ik.imagekit.io/lrjseyuxi3m/todoapp/undraw_youtube_icon_KQ3Mu29f9Vjv.svg?updatedAt=1636635922070"/>                    
-                    </a>
-                    <a href="https://www.linkedin.com/in/patrickriosf/">
+                    <a href="https://www.linkedin.com/in/apongpoh-gilbert-allo-8152b3286/">
                       <img className={`${styles.socialItem} ${styles.linkLinkedin}`} src="https://ik.imagekit.io/lrjseyuxi3m/todoapp/undraw_linkedin_icon_qW0U6Df8q.svg?updatedAt=1636635922444"/>                    
                     </a>
-                    <a href="https://github.com/patrickrios" className={`${styles.socialItem} ${styles.linkGithub}`} >
+                    <a href="https://github.com/Apongpoh" className={`${styles.socialItem} ${styles.linkGithub}`} >
                       <img src="https://ik.imagekit.io/lrjseyuxi3m/todoapp/undraw_github_icon_Df3Xanhbpl.svg?updatedAt=1636635922146"/>
                     </a>
                     <img src="https://ik.imagekit.io/lrjseyuxi3m/todoapp/undraw_social_ideas_re_j5v4_8fl8yGcsFLY.svg?updatedAt=1636637986700" alt="" />

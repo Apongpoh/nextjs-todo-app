@@ -23,7 +23,7 @@ const About: NextPage = () => {
               <div className={styles.textBlock}>
                 <h2>About the project</h2>
                 <p>It&apos;s a simple <b>web app</b> project and provide some features to the user manage your projects and tasks.</p>
-                <p>It was developed to be part of my <a href="https://patrickrios.github.io">professional portfolio</a>.</p>
+                <p>It was developed to be part of my professional portfolio.</p>
               </div>
             </section>
 
