@@ -22,7 +22,7 @@ const About: NextPage = () => {
               <img src="https://ik.imagekit.io/lrjseyuxi3m/todoapp/undraw_checklist__re_2w7v_1_EBpT5tUGgO.png?updatedAt=1636555587766" alt="" />
               <div className={styles.textBlock}>
                 <h2>About the project</h2>
-                <p>It&apos;s a simple <b>web app</b> project and provide some features to the user manage your projects and tasks.</p>
+                <p>It&apos;s a simple <b>web app</b> project and provide some features to the user to manage their projects and tasks.</p>
                 <p>It was developed to be part of my professional portfolio.</p>
               </div>
             </section>
