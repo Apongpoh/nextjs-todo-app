@@ -58,9 +58,9 @@ const Author: NextPage = () => {
                     </a>
                     <img src="https://ik.imagekit.io/lrjseyuxi3m/todoapp/undraw_social_ideas_re_j5v4_8fl8yGcsFLY.svg?updatedAt=1636637986700" alt="" />
                   </div>
-                  <div className={styles.textBlock}>
+                  {/* <div className={styles.textBlock}>
                     <SendEmail/>
-                  </div>
+                  </div> */}
                 </div>
             </section>
       </main>
