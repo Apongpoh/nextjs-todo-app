@@ -1,0 +1,67 @@
+.sendEmail{
+    display:flex;
+    flex-direction: column;
+    gap:.75rem;
+    width: 100%;
+    position:relative;
+}
+.sendEmail h3{
+    font-size:1.25rem;
+    color: var(--gray-30);
+}
+.sendEmail input,
+.sendEmail textarea{
+    background: var(--gray-97);
+    border:1px solid var(--gray-90);
+    border-radius:4px;
+    width:100%;
+    padding:.75rem;
+    font-size:1rem;
+    color:var(--gray-35);
+}
+.sendEmail input::placeholder,
+.sendEmail textarea::placeholder{
+    color:var(--gray-70);
+}
+.sendEmail textarea{
+    height:125px;
+}
+.sendEmail button{
+    background: var(--accent-blue-50);
+    color: var(--gray-98);
+    border-radius:4px;
+    border:none;
+    padding:0.85rem 1.65rem;
+    font-weight: 700;
+    max-width: max-content;
+    cursor: pointer;
+    font-size:1.05rem;
+}
+.sendEmail button:disabled{
+    opacity:.45;
+    cursor: not-allowed;
+}
+.requiredField{
+    border-color:var(--accent-red-50) !important;
+}
+.sending{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background: rgba(255,255,255,0.75);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.sending img{
+    animation: infiniteRotate 1.5s linear infinite;
+}
+@keyframes infiniteRotate {    
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotateY(360deg); }
+}
+@media screen and (min-width:920px){
+    .sendEmail{
+        width: 450px;
+    }
+}
